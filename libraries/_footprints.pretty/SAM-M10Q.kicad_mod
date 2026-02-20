@@ -1,0 +1,271 @@
+(footprint "SAM-M10Q"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9d073197-0e49-4c9a-8804-33904134061a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SAM-M10Q"
+		(at 0 8.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f3c3ead2-f1dc-4760-87ec-dfd8e1d270c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1a3f8f3-2cb4-41e0-9efb-dfae101e2734")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b19a8ce-4bbe-4ac1-9acf-41f6a98c94d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -8.462328 -3.8) (xy -9.462328 -3.3) (xy -9.462328 -4.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "09c4fcd5-e82a-4935-bd6e-5d9d1db7b487")
+	)
+	(fp_rect
+		(start -8 -7.8)
+		(end 8 7.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8e30c7b2-11da-4118-929e-db46fb57a842")
+	)
+	(fp_poly
+		(pts
+			(xy -7.75 -7) (xy -7 -7.75) (xy 7.75 -7.75) (xy 7.75 7.75) (xy -7.75 7.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e58ece96-9103-4e64-a1eb-9da7c8045b68")
+	)
+	(fp_text user "Antenna Ground Plane"
+		(at -8 -23 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "7c4fc6d5-12d7-4d62-9f34-876b55855030")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "74b86393-992b-4f87-b1cc-7c56ba50c1f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -6.6 -3.8 270)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3d3603a8-b7bc-4978-898c-d84cdc5b988f")
+	)
+	(pad "2" smd rect
+		(at -6.6 -1.9 270)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "36423927-ad89-4cb2-b1e0-329031c60cdd")
+	)
+	(pad "3" smd rect
+		(at -6.6 0 270)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b554bc8b-4bcd-4bb1-bbe9-82ad73479e21")
+	)
+	(pad "4" smd rect
+		(at -6.6 1.9 270)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "14b4eb45-99a7-4758-b999-4b2a5ff0c183")
+	)
+	(pad "5" smd rect
+		(at -6.6 3.8 270)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "775f9d60-b33c-4ccc-8b20-f20f6269bd34")
+	)
+	(pad "6" smd rect
+		(at -3.8 6.6 180)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1e4d9a85-1016-44d2-87e1-c625eaa3a457")
+	)
+	(pad "7" smd rect
+		(at -1.9 6.6 180)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "feb0ac81-d979-45aa-bd46-a8d0bb492475")
+	)
+	(pad "8" smd rect
+		(at 0 6.6 180)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "af0a3bef-0f72-459e-b55d-250dda91bfdb")
+	)
+	(pad "9" smd rect
+		(at 1.9 6.6 180)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2ba8285e-f0d5-47da-8b9a-29c82a313a42")
+	)
+	(pad "10" smd rect
+		(at 3.8 6.6 180)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4e2bc761-fb5e-4f73-b4f2-5a3750618bac")
+	)
+	(pad "11" smd rect
+		(at 6.6 3.8 270)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b0cbf727-9ff9-4f32-8853-6e01362796b6")
+	)
+	(pad "12" smd rect
+		(at 6.6 1.9 270)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60b76595-4aff-4344-8772-7ee719195878")
+	)
+	(pad "13" smd rect
+		(at 6.6 0 270)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ab16fb93-3406-4b22-b898-c6431ffb2217")
+	)
+	(pad "14" smd rect
+		(at 6.6 -1.9 270)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "de9d2582-bdb9-47a7-81c1-39f0d9b5712a")
+	)
+	(pad "15" smd rect
+		(at 6.6 -3.8 270)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eaa142be-3c6c-4193-97ae-7a178c4a0acf")
+	)
+	(pad "16" smd rect
+		(at 3.8 -6.6 180)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8e4104e5-c237-4419-8570-f5439d80a78e")
+	)
+	(pad "17" smd rect
+		(at 1.9 -6.6 180)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d60906f8-9dfc-46d5-9265-70cf78150ab2")
+	)
+	(pad "18" smd rect
+		(at 0 -6.6 180)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9e53ff2e-c063-42df-9623-e947fa29e048")
+	)
+	(pad "19" smd rect
+		(at -1.9 -6.6 180)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b7b1eeb4-bf63-486a-8b3b-48a67f892def")
+	)
+	(pad "20" smd rect
+		(at -3.8 -6.6 180)
+		(size 1.5 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c8f9f074-7232-4692-be01-07d802a955b7")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "Dwgs.User")
+		(uuid "0351f2f2-583f-43fa-be8f-8fa31b8a4dd5")
+		(name "Antenna Ground Plane")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 25 -25) (xy 25 25) (xy -25 25) (xy -25 -25)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
