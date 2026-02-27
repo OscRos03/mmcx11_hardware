@@ -3439,6 +3439,63 @@
 			"EJJ6WNIhhBBCCEk9LOkQQgghhKTe/wHNdzbGeGDWogAAAABJRU5ErkJggg=="
 		)
 	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 21.59 19.685)
+		(row_heights 3.81)
+		(cells
+			(table_cell "Recommended I_{VCC}"
+				(exclude_from_sim no)
+				(at 165.735 67.31 0)
+				(size 21.59 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9523a885-017a-4bb6-b83e-e9d03750f445")
+			)
+			(table_cell "500 mA"
+				(exclude_from_sim no)
+				(at 187.325 67.31 0)
+				(size 19.685 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ec8baf04-5e83-4b74-b3a3-d75273d9ff1d")
+			)
+		)
+	)
 	(hierarchical_label "TXD0"
 		(shape output)
 		(at 137.16 63.5 0)
@@ -4174,7 +4231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1"
+		(property "Value" "ESP32-S3-WROOM-1-N16"
 			(at 124.0633 58.42 0)
 			(effects
 				(font
