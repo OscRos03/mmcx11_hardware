@@ -49,6 +49,15 @@
 				(hide yes)
 			)
 		)
+		(property "Schematic" "https://files.waveshare.com/upload/c/c1/CoreSX1262_Sch.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "CoreSX1262-LF_1_1"
 			(rectangle
 				(start -15.24 16.51)
@@ -136,7 +145,7 @@
 			(pin input line
 				(at -17.78 -1.27 0)
 				(length 2.54)
-				(name "RESET"
+				(name "~{RESET}"
 					(effects
 						(font
 							(size 1.27 1.27)
